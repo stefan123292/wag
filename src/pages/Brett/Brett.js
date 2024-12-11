@@ -1,8 +1,8 @@
 import PlanetSection from '../../components/PlanetSection/PlanetSection';
 import { data } from './data';
 
-const Neptune = () => {
+const Brett = () => {
     return <PlanetSection planetData={data} />;
 };
 
-export default Neptune;
+export default Brett;

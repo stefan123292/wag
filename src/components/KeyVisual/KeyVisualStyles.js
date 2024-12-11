@@ -1,15 +1,16 @@
 import styled, { css } from 'styled-components';
 import { motion } from 'framer-motion';
 import { asteroidsBackground } from './asteroidsBackground';
-import sunImage from '../../assets/images/sun.png';
-import mercuryImage from '../../assets/images/planet-mercury.svg';
-import venusImage from '../../assets/images/planet-venus.svg';
-import earthImage from '../../assets/images/planet-earth.svg';
-import marsImage from '../../assets/images/planet-mars.svg';
-import jupiterImage from '../../assets/images/planet-jupiter.svg';
-import saturnImage from '../../assets/images/planet-saturn.svg';
-import uranusImage from '../../assets/images/planet-uranus.svg';
-import neptuneImage from '../../assets/images/planet-neptune.svg';
+import wenImage from '../../assets/wen-modified.png';
+import shibaImage from '../../assets/images/Shiba_Inu_coin_logo.png';
+import ponkeImage from '../../assets/images/ponke.png';
+import pepeImage from '../../assets/images/pepe-pepe-logo.png';
+import bonkImage from '../../assets/images/bonk.png';
+import brettImage from '../../assets/images/brett.png';
+import dogImage from '../../assets/images/Dogecoin_Logo.png';
+import wifImage from '../../assets/images/wif.png';
+import flokingImage from '../../assets/images/floki.png';
+
 import { NavLink } from 'react-router-dom';
 
 export const Container = styled(motion.div)`
@@ -84,14 +85,14 @@ export const Sun = styled.div`
     height: 80px;
     width: 80px;
     border-radius: 1000px;
-    background-image: url(${sunImage});
+    background-image: url(${wenImage});
     background-size: cover;
     box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4),
         0 0 22px 11px rgba(255, 203, 0, 0.13);
     transform: translate(-50%, -50%);
 `;
 
-export const Mercury = styled(Planet)`
+export const Floki = styled(Planet)`
     width: 100px;
     height: 100px;
     animation: orbit 7.1867343561s linear infinite;
@@ -100,107 +101,107 @@ export const Mercury = styled(Planet)`
     &::before {
         height: 8px;
         width: 8px;
-        background-image: url(${mercuryImage});
+        background-image: url(${flokingImage});
         background-size: cover;
     }
 `;
 
-export const Venus = styled(Planet)`
+export const Wif = styled(Planet)`
     width: 130px;
     height: 130px;
     animation: orbit 18.4555338265s linear infinite;
     z-index: 99;
 
     &::before {
-        height: 15px;
-        width: 15px;
-        background-image: url(${venusImage});
+        height: 20px;
+        width: 20px;
+        background-image: url(${wifImage});
         background-size: cover;
     }
 `;
 
-export const Earth = styled(Planet)`
+export const Shiba = styled(Planet)`
     width: 175px;
     height: 175px;
     animation: orbit 30s linear infinite;
     z-index: 98;
 
     &::before {
-        width: 16px;
-        height: 16px;
-        background-image: url(${earthImage});
+        width: 30px;
+        height: 30px;
+        background-image: url(${shibaImage});
         background-size: cover;
     }
 `;
 
-export const Mars = styled(Planet)`
+export const Pepe = styled(Planet)`
     width: 220px;
     height: 220px;
     animation: orbit 56.4261314589s linear infinite;
     z-index: 97;
 
     &::before {
-        width: 12px;
-        height: 12px;
-        background-image: url(${marsImage});
+        width: 40px;
+        height: 40px;
+        background-image: url(${pepeImage});
         background-size: cover;
     }
 `;
 
-export const Jupiter = styled(Planet)`
+export const Doge = styled(Planet)`
     width: 370px;
     height: 370px;
     animation: orbit 355.7228171013s linear infinite;
     z-index: 96;
 
     &::before {
-        width: 36px;
-        height: 36px;
-        background-image: url(${jupiterImage});
+        width: 50px;
+        height: 50px;
+        background-image: url(${dogImage});
         background-size: cover;
     }
 `;
 
-export const Saturn = styled(Planet)`
+export const Bonk = styled(Planet)`
     width: 470px;
     height: 470px;
     animation: orbit 882.6952471456s linear infinite;
     z-index: 95;
 
     &::before {
-        width: 55px;
-        height: 40px;
-        background-image: url(${saturnImage});
+        width: 60px;
+        height: 60px;
+        background-image: url(${bonkImage});
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
     }
 `;
 
-export const Uranus = styled(Planet)`
+export const Ponke = styled(Planet)`
     width: 550px;
     height: 550px;
     animation: orbit 2512.4001967933s linear infinite;
     z-index: 94;
 
     &::before {
-        width: 20px;
-        height: 20px;
-        background-image: url(${uranusImage});
+        width: 80px;
+        height: 80px;
+        background-image: url(${ponkeImage});
         background-size: cover;
     }
 `;
 
-export const Neptune = styled(Planet)`
+export const Brett = styled(Planet)`
     width: 660px;
     height: 660px;
     animation: orbit 4911.7838624549s linear infinite;
     z-index: 93;
 
     &::before {
-        width: 20px;
-        height: 20px;
-        background-image: url(${neptuneImage});
+        width: 100px;
+        height: 100px;
+        background-image: url(${brettImage});
         background-size: cover;
     }
 `;

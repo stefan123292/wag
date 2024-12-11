@@ -1,8 +1,8 @@
 import PlanetSection from '../../components/PlanetSection/PlanetSection';
 import { data } from './data';
 
-const Venus = () => {
+const Wif = () => {
     return <PlanetSection planetData={data} />;
 };
 
-export default Venus;
+export default Wif;

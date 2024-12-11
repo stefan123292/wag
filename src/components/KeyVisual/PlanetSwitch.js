@@ -1,83 +1,74 @@
-import {
-    Mercury,
-    Venus,
-    Earth,
-    Mars,
-    Jupiter,
-    Saturn,
-    Uranus,
-    Neptune,
-} from './KeyVisualStyles';
+import {Floki, Brett, Ponke, Bonk, Doge, Pepe, Shiba, Wif} from './KeyVisualStyles';
 
 const PlanetSwitch = ({ data, activePlanet }) => {
     const planetSwitch = () => {
         switch (data.name) {
-            case 'Mercury':
+            case 'Floki':
                 return (
-                    <Mercury
+                    <Floki
                         to={data.path}
                         aria-label={`${data.name} page`}
                         $isActive={activePlanet === data.path}
                         $planetColor={data.sectionColor}
                     />
                 );
-            case 'Venus':
+            case 'Wif':
                 return (
-                    <Venus
+                    <Wif
                         to={data.path}
                         aria-label={`${data.name} page`}
                         $isActive={activePlanet === data.path}
                         $planetColor={data.sectionColor}
                     />
                 );
-            case 'Earth':
+            case 'Shiba':
                 return (
-                    <Earth
+                    <Shiba
                         to={data.path}
                         aria-label={`${data.name} page`}
                         $isActive={activePlanet === data.path}
                         $planetColor={data.sectionColor}
                     />
                 );
-            case 'Mars':
+            case 'Pepe':
                 return (
-                    <Mars
+                    <Pepe
                         to={data.path}
                         aria-label={`${data.name} page`}
                         $isActive={activePlanet === data.path}
                         $planetColor={data.sectionColor}
                     />
                 );
-            case 'Jupiter':
+            case 'Doge':
                 return (
-                    <Jupiter
+                    <Doge
                         to={data.path}
                         aria-label={`${data.name} page`}
                         $isActive={activePlanet === data.path}
                         $planetColor={data.sectionColor}
                     />
                 );
-            case 'Saturn':
+            case 'Bonk':
                 return (
-                    <Saturn
+                    <Bonk
                         to={data.path}
                         aria-label={`${data.name} page`}
                         $isActive={activePlanet === data.path}
                         $planetColor={data.sectionColor}
                     />
                 );
-            case 'Uranus':
+            case 'Ponke':
                 return (
-                    <Uranus
+                    <Ponke
                         to={data.path}
                         aria-label={`${data.name} page`}
                         $isActive={activePlanet === data.path}
                         $planetColor={data.sectionColor}
                     />
                 );
-            case 'Neptune':
+            case 'Brett':
                 return (
-                    <Neptune
+                    <Brett
                         to={data.path}
                         aria-label={`${data.name} page`}
                         $isActive={activePlanet === data.path}

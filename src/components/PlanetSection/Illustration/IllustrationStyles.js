@@ -60,9 +60,6 @@ export const Image = styled.div`
     ${(props) =>
         props.geo
             ? css`
-                  &::before {
-                      background-image: url(${props.geo});
-                  }
               `
             : ''};
 

@@ -30,13 +30,6 @@ const IntroContainer = ({ planetData, currentData, isChanging }) => {
             <Text aria-live="assertive" isChanging={isChanging}>
                 {currentData.content}
             </Text>
-            <SourceContainer>
-                <Span>Source: </Span>
-                <Link href={currentData.source} planetData={planetData}>
-                    Wikipedia
-                    <Icon name="source" size={12} color="hsl(240, 6%, 54%)" />
-                </Link>
-            </SourceContainer>
         </Intro>
     );
 };

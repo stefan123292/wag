@@ -4,15 +4,16 @@ import { AnimatePresence } from 'framer-motion';
 import Provider from '../Provider/Provider';
 import Wrapper from '../Wrapper/Wrapper';
 import Navbar from '../Navbar/Navbar';
-import Mercury from '../../pages/Mercury/Mercury';
-import Venus from '../../pages/Venus/Venus';
-import Earth from '../../pages/Earth/Earth';
-import Mars from '../../pages/Mars/Mars';
-import Jupiter from '../../pages/Jupiter/Jupiter';
-import Saturn from '../../pages/Saturn/Saturn';
-import Uranus from '../../pages/Uranus/Uranus';
-import Neptune from '../../pages/Neptune/Neptune';
+import Pepe from '../../pages/Pepe/Pepe';
+import Doge from '../../pages/Doge/Doge';
+import Bonk from '../../pages/Bonk/Bonk';
+import Ponke from '../../pages/Ponke/Ponke';
+import Brett from '../../pages/Brett/Brett';
 import KeyVisual from '../KeyVisual/KeyVisual';
+import Floki from "../../pages/Floki/Floki";
+import Wif from "../../pages/Wif/Wif";
+import Shiba from "../../pages/Shiba/Shiba";
+import KeyFeatures from "../KeyFeatures/KeyFeatures";
 
 const App = () => {
     const location = useLocation();
@@ -28,32 +29,33 @@ const App = () => {
                 />
                 <AnimatePresence>
                     <Switch location={location} key={location.key}>
-                        <Route exact path="/mercury">
-                            <Mercury />
+                        <Route exact path="/floki">
+                            <Floki />
                         </Route>
-                        <Route exact path="/venus">
-                            <Venus />
+                        <Route exact path="/wif">
+                            <Wif />
                         </Route>
-                        <Route exact path="/earth">
-                            <Earth />
+                        <Route exact path="/shiba">
+                            <Shiba />
                         </Route>
-                        <Route exact path="/mars">
-                            <Mars />
+                        <Route exact path="/pepe">
+                            <Pepe />
                         </Route>
-                        <Route exact path="/jupiter">
-                            <Jupiter />
+                        <Route exact path="/doge">
+                            <Doge />
                         </Route>
-                        <Route exact path="/saturn">
-                            <Saturn />
+                        <Route exact path="/bonk">
+                            <Bonk />
                         </Route>
-                        <Route exact path="/uranus">
-                            <Uranus />
+                        <Route exact path="/ponke">
+                            <Ponke />
                         </Route>
-                        <Route exact path="/neptune">
-                            <Neptune />
+                        <Route exact path="/brett">
+                            <Brett />
                         </Route>
                         <Route exact path="/">
                             <KeyVisual activePlanet={activePlanet} />
+                            <KeyFeatures/>
                         </Route>
                     </Switch>
                 </AnimatePresence>

@@ -85,11 +85,6 @@ export const Text = styled.p`
     }
 `;
 
-export const SourceContainer = styled.div`
-    display: flex;
-    gap: 5px;
-`;
-
 export const Span = styled.span`
     color: ${(props) => props.theme.colors.grayLight};
     font-size: 0.75rem;

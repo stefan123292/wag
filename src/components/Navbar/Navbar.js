@@ -36,7 +36,7 @@ const Navbar = ({ pathName, activePlanet, onHover }) => {
         >
             <Container>
                 <Logo>
-                    <LogoLink to="/">The Planets</LogoLink>
+                    <LogoLink to="/">GalaxyWen</LogoLink>
                 </Logo>
                 {windowWidth >= tabletBreakpoint ? (
                     <NavDesktop
