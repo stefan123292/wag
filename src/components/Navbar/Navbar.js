@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
-import { Header, Logo, LogoLink, Container } from './NavbarStyles';
+import {Header, Logo, LogoLink, Container, Home} from './NavbarStyles';
 import NavMobile from './NavMobile/NavMobile';
 import NavDesktop from './NavDesktop/NavDesktop';
+import logoImage from "../../assets/wen-modified.png"; // Path to your logo image
 
 const Navbar = ({ pathName, activePlanet, onHover }) => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -36,7 +37,12 @@ const Navbar = ({ pathName, activePlanet, onHover }) => {
         >
             <Container>
                 <Logo>
-                    <LogoLink to="/">GalaxyWen</LogoLink>
+                    <LogoLink to="/">
+                        <Home>
+                            <img src={logoImage} alt="GalaxyWen Logo"/>
+                            <p>GalaxyWen</p>
+                        </Home>
+                    </LogoLink>
                 </Logo>
                 {windowWidth >= tabletBreakpoint ? (
                     <NavDesktop

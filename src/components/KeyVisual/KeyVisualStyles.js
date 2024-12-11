@@ -78,24 +78,29 @@ export const Planet = styled(NavLink)`
     }
 `;
 
-export const Sun = styled.div`
+export const Wen = styled.div`
     position: absolute;
+    z-index: 500;
     top: 50%;
     left: 50%;
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     border-radius: 1000px;
     background-image: url(${wenImage});
     background-size: cover;
     box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4),
         0 0 22px 11px rgba(255, 203, 0, 0.13);
     transform: translate(-50%, -50%);
+    @media (max-width: 768px) {
+        width: 80px;
+        height: 80px;
+    }
 `;
 
 export const Floki = styled(Planet)`
     width: 100px;
     height: 100px;
-    animation: orbit 7.1867343561s linear infinite;
+    animation: orbit 7.1867s linear infinite;
     z-index: 100;
 
     &::before {
@@ -104,12 +109,18 @@ export const Floki = styled(Planet)`
         background-image: url(${flokingImage});
         background-size: cover;
     }
+
+    @media (max-width: 768px) {
+        width: 60px;
+        height: 60px;
+        animation-duration: 5s;
+    }
 `;
 
 export const Wif = styled(Planet)`
     width: 130px;
     height: 130px;
-    animation: orbit 18.4555338265s linear infinite;
+    animation: orbit 18.4555s linear infinite;
     z-index: 99;
 
     &::before {
@@ -117,6 +128,12 @@ export const Wif = styled(Planet)`
         width: 20px;
         background-image: url(${wifImage});
         background-size: cover;
+    }
+
+    @media (max-width: 768px) {
+        width: 80px;
+        height: 80px;
+        animation-duration: 12s;
     }
 `;
 
@@ -132,12 +149,18 @@ export const Shiba = styled(Planet)`
         background-image: url(${shibaImage});
         background-size: cover;
     }
+
+    @media (max-width: 768px) {
+        width: 110px;
+        height: 110px;
+        animation-duration: 20s;
+    }
 `;
 
 export const Pepe = styled(Planet)`
     width: 220px;
     height: 220px;
-    animation: orbit 56.4261314589s linear infinite;
+    animation: orbit 56.4261s linear infinite;
     z-index: 97;
 
     &::before {
@@ -146,12 +169,18 @@ export const Pepe = styled(Planet)`
         background-image: url(${pepeImage});
         background-size: cover;
     }
+
+    @media (max-width: 768px) {
+        width: 140px;
+        height: 140px;
+        animation-duration: 35s;
+    }
 `;
 
 export const Doge = styled(Planet)`
     width: 370px;
     height: 370px;
-    animation: orbit 355.7228171013s linear infinite;
+    animation: orbit 355.7228s linear infinite;
     z-index: 96;
 
     &::before {
@@ -160,12 +189,18 @@ export const Doge = styled(Planet)`
         background-image: url(${dogImage});
         background-size: cover;
     }
+
+    @media (max-width: 768px) {
+        width: 200px;
+        height: 200px;
+        animation-duration: 150s;
+    }
 `;
 
 export const Bonk = styled(Planet)`
     width: 470px;
     height: 470px;
-    animation: orbit 882.6952471456s linear infinite;
+    animation: orbit 882.6952s linear infinite;
     z-index: 95;
 
     &::before {
@@ -176,12 +211,18 @@ export const Bonk = styled(Planet)`
         background-position: center;
         background-repeat: no-repeat;
     }
+
+    @media (max-width: 768px) {
+        width: 250px;
+        height: 250px;
+        animation-duration: 300s;
+    }
 `;
 
 export const Ponke = styled(Planet)`
     width: 550px;
     height: 550px;
-    animation: orbit 2512.4001967933s linear infinite;
+    animation: orbit 2512.4002s linear infinite;
     z-index: 94;
 
     &::before {
@@ -190,12 +231,18 @@ export const Ponke = styled(Planet)`
         background-image: url(${ponkeImage});
         background-size: cover;
     }
+
+    @media (max-width: 768px) {
+        width: 300px;
+        height: 300px;
+        animation-duration: 500s;
+    }
 `;
 
 export const Brett = styled(Planet)`
     width: 660px;
     height: 660px;
-    animation: orbit 4911.7838624549s linear infinite;
+    animation: orbit 4911.7839s linear infinite;
     z-index: 93;
 
     &::before {
@@ -203,6 +250,12 @@ export const Brett = styled(Planet)`
         height: 100px;
         background-image: url(${brettImage});
         background-size: cover;
+    }
+
+    @media (max-width: 768px) {
+        width: 350px;
+        height: 350px;
+        animation-duration: 800s;
     }
 `;
 

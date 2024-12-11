@@ -33,8 +33,29 @@ export const Container = styled.div`
     }
 `;
 
-export const Logo = styled.h1`
-    all: unset;
+export const Home = styled.div `
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+`
+export const Logo = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 75px; /* Default width */
+        height: auto; /* Maintain aspect ratio */
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1); /* Slight zoom on hover */
+        }
+
+        @media (max-width: 768px) {
+            width: 60px; /* Smaller size for mobile screens */
+        }
+    }
 `;
 
 export const LogoLink = styled(Link)`

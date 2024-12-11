@@ -14,6 +14,8 @@ import Floki from "../../pages/Floki/Floki";
 import Wif from "../../pages/Wif/Wif";
 import Shiba from "../../pages/Shiba/Shiba";
 import KeyFeatures from "../KeyFeatures/KeyFeatures";
+import RoadMap from "../RoadMap/RoadMap";
+import GalaxyWenInfo from "../What/What";
 
 const App = () => {
     const location = useLocation();
@@ -55,7 +57,9 @@ const App = () => {
                         </Route>
                         <Route exact path="/">
                             <KeyVisual activePlanet={activePlanet} />
-                            <KeyFeatures/>
+                            <GalaxyWenInfo/>
+                            <KeyFeatures />
+                            <RoadMap />
                         </Route>
                     </Switch>
                 </AnimatePresence>

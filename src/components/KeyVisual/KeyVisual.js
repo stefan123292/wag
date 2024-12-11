@@ -1,4 +1,4 @@
-import { Container, Sun, AsteroidsBelt } from './KeyVisualStyles';
+import {Container, Sun, AsteroidsBelt, Wen} from './KeyVisualStyles';
 import { planets } from './data';
 import PlanetSwitch from './PlanetSwitch';
 
@@ -30,7 +30,7 @@ const KeyVisual = ({ activePlanet }) => {
             animate="visible"
             exit="exit"
         >
-            <Sun />
+            <Wen />
             {planets.map((planet) => (
                 <PlanetSwitch
                     data={planet}
