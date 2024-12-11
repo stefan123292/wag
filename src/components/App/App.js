@@ -16,6 +16,7 @@ import Shiba from "../../pages/Shiba/Shiba";
 import KeyFeatures from "../KeyFeatures/KeyFeatures";
 import RoadMap from "../RoadMap/RoadMap";
 import GalaxyWenInfo from "../What/What";
+import Copyright from "../Footer/Footer";
 
 const App = () => {
     const location = useLocation();
@@ -60,6 +61,7 @@ const App = () => {
                             <GalaxyWenInfo/>
                             <KeyFeatures />
                             <RoadMap />
+                            <Copyright/>
                         </Route>
                     </Switch>
                 </AnimatePresence>
