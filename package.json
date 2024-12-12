@@ -1,19 +1,13 @@
 {
-    "name": "planets-fact",
+    "name": "galaxy-wen",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
     "scripts": {
         "build": "npx mix",
         "mix-watch": "npx mix watch"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/stefan123292/galaxy_wen.git"
-    },
     "keywords": [],
-    "author": "Dawid Weber",
-    "license": "ISC",
+    "author": "Wen",
     "homepage": "https://galaxy-wen.xyz/",
     "devDependencies": {
         "laravel-mix": "^6.0.25",
