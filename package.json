@@ -2,7 +2,7 @@
     "name": "wog-coin",
     "version": "1.0.0",
     "description": "",
-    "main": "src/index.html",
+    "main": "index.html",
     "scripts": {
         "build": "npx mix",
         "mix-watch": "npx mix watch"
