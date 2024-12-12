@@ -9,15 +9,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tediko/planets-fact.git"
+        "url": "git+https://github.com/stefan123292/galaxy_wen.git"
     },
     "keywords": [],
     "author": "Dawid Weber",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/tediko/planets-fact/issues"
-    },
-    "homepage": "https://github.com/tediko/planets-fact#readme",
+    "homepage": "https://galaxy-wen.xyz/",
     "devDependencies": {
         "laravel-mix": "^6.0.25",
         "prettier": "2.3.2"
