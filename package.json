@@ -2,6 +2,7 @@
     "name": "galaxy-wen",
     "version": "1.0.0",
     "description": "",
+    "main": "index.html",
     "scripts": {
         "build": "npx mix",
         "mix-watch": "npx mix watch"
