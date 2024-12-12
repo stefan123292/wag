@@ -1,6 +1,6 @@
 export const roadmapData = [
-    { phase: "Phase 1", description: "Launch $GWEN with a fair launch. Build community momentum and spread awareness." },
-    { phase: "Phase 2", description: "Get listed on decentralized exchanges (DEX). Release first GalaxyWen meme NFT collection." },
-    { phase: "Phase 3", description: "Launch roadmap utilities. Introduce staking features and partnerships." },
-    { phase: "Phase 4", description: "Global expansion. Build the GalaxyWen DAO. Wen Galaxy? Let's go interstellar!" },
+    { phase: "Phase 1", description: "Launch WagCoin with a fair and transparent launch. Start building a strong and engaged community." },
+    { phase: "Phase 2", description: "Get listed on decentralized exchanges (DEX). Release the first WagCoin-themed meme NFT collection." },
+    { phase: "Phase 3", description: "Introduce staking features for WagCoin holders. Partner with influencers and meme creators to grow awareness." },
+    { phase: "Phase 4", description: "Expand globally. Launch community-driven initiatives and explore utility features for WagCoin adoption." },
 ];

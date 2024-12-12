@@ -39,6 +39,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        background-color: hsl(0deg 0% 0%);
         font-family: ${theme.fonts.primary};
         font-size: 0.875rem;
         counter-reset: tab;

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import {Header, Logo, LogoLink, Container, Home} from './NavbarStyles';
 import NavMobile from './NavMobile/NavMobile';
 import NavDesktop from './NavDesktop/NavDesktop';
-import logoImage from "../../assets/wen-modified.png"; // Path to your logo image
+import wagImg from "../../assets/wag.png"; // Path to your logo image
 
 const Navbar = ({ pathName, activePlanet, onHover }) => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -31,16 +31,17 @@ const Navbar = ({ pathName, activePlanet, onHover }) => {
     return (
         <Header
             variants={containerVariants}
-            initial="hidden"
-            animate="visible"
+            initial={{ opacity: 0, y: -20 }} // Start slightly above and invisible
+            animate={{ opacity: 1, y: 0 }}  // Animate to visible position
+            transition={{ duration: 1, ease: "easeOut" }} // Adjust speed and easing
             exit="exit"
         >
             <Container>
                 <Logo>
                     <LogoLink to="/">
                         <Home>
-                            <img src={logoImage} alt="GalaxyWen Logo"/>
-                            <p>GalaxyWen</p>
+                            <img src={wagImg} alt="Wag Logo"/>
+                            <p style={{ marginLeft: '15px'}}>WagCoin</p>
                         </Home>
                     </LogoLink>
                 </Logo>

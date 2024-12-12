@@ -1,12 +1,22 @@
 import { roadmapData } from "./data";
 import {RoadmapStyles} from "./RoadMapStyles";
-import wenIma from "../../assets/wen-modified.png"
+import wagImg from "../../assets/wag.png"
+import {useEffect, useRef} from "react";
+import { gsap } from "gsap";
 
 const RoadMap = () => {
+    const roadmapRefs = useRef([]);
 
+    useEffect(() => {
+        gsap.fromTo(
+            roadmapRefs.current,
+            { opacity: 0, y: 50 },
+            { opacity: 1, y: 0, duration: 1, stagger: 0.3, ease: "power2.out" }
+        );
+    }, []);
     return (
         <RoadmapStyles>
-            <h1>GalaxyWen Roadmap</h1>
+            <h1>WagCoin Roadmap</h1>
             <div className="roadmap-container">
                 {roadmapData.map((item, index) => (
                     <div className="roadmap-item" key={index}>
@@ -15,7 +25,7 @@ const RoadMap = () => {
                     </div>
                 ))}
             </div>
-            <img src={wenIma} alt="wen"/>
+            <img src={wagImg} alt="wen"/>
         </RoadmapStyles>
     );
 };

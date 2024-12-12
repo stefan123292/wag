@@ -4,19 +4,13 @@ import { AnimatePresence } from 'framer-motion';
 import Provider from '../Provider/Provider';
 import Wrapper from '../Wrapper/Wrapper';
 import Navbar from '../Navbar/Navbar';
-import Pepe from '../../pages/Pepe/Pepe';
-import Doge from '../../pages/Doge/Doge';
-import Bonk from '../../pages/Bonk/Bonk';
-import Ponke from '../../pages/Ponke/Ponke';
-import Brett from '../../pages/Brett/Brett';
-import KeyVisual from '../KeyVisual/KeyVisual';
-import Floki from "../../pages/Floki/Floki";
-import Wif from "../../pages/Wif/Wif";
-import Shiba from "../../pages/Shiba/Shiba";
 import KeyFeatures from "../KeyFeatures/KeyFeatures";
 import RoadMap from "../RoadMap/RoadMap";
 import GalaxyWenInfo from "../What/What";
 import Copyright from "../Footer/Footer";
+import StarryTokenLanding from "../TokenLandingPage/TokenLandingPage";
+import Community from "../Community/Community";
+import HowToBuy from "../HowToBuy/HowToBuy";
 
 const App = () => {
     const location = useLocation();
@@ -32,32 +26,21 @@ const App = () => {
                 />
                 <AnimatePresence>
                     <Switch location={location} key={location.key}>
-                        <Route exact path="/floki">
-                            <Floki />
+                        <Route exact path="/about">
+                            <GalaxyWenInfo />
+                            <KeyFeatures />
                         </Route>
-                        <Route exact path="/wif">
-                            <Wif />
+                        <Route exact path="/roadmap">
+                            <RoadMap />
                         </Route>
-                        <Route exact path="/shiba">
-                            <Shiba />
+                        <Route exact path="/how-to-buy">
+                            <HowToBuy />
                         </Route>
-                        <Route exact path="/pepe">
-                            <Pepe />
-                        </Route>
-                        <Route exact path="/doge">
-                            <Doge />
-                        </Route>
-                        <Route exact path="/bonk">
-                            <Bonk />
-                        </Route>
-                        <Route exact path="/ponke">
-                            <Ponke />
-                        </Route>
-                        <Route exact path="/brett">
-                            <Brett />
+                        <Route exact path="/community">
+                            <Community />
                         </Route>
                         <Route exact path="/">
-                            <KeyVisual activePlanet={activePlanet} />
+                            <StarryTokenLanding/>
                             <GalaxyWenInfo/>
                             <KeyFeatures />
                             <RoadMap />

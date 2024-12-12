@@ -1,5 +1,5 @@
 {
-    "name": "galaxy-wen",
+    "name": "wog-coin",
     "version": "1.0.0",
     "description": "",
     "main": "index.html",
@@ -9,7 +9,7 @@
     },
     "keywords": [],
     "author": "Wen",
-    "homepage": "https://galaxy-wen.xyz/",
+    "homepage": "https://wagcoin.xyz/",
     "devDependencies": {
         "laravel-mix": "^6.0.25",
         "prettier": "2.3.2"
@@ -17,6 +17,7 @@
     "dependencies": {
         "@babel/preset-react": "^7.14.5",
         "framer-motion": "^4.1.17",
+        "gsap": "^3.12.5",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-icomoon": "^2.3.5",

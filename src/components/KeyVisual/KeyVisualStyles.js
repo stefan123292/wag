@@ -2,14 +2,6 @@ import styled, { css } from 'styled-components';
 import { motion } from 'framer-motion';
 import { asteroidsBackground } from './asteroidsBackground';
 import wenImage from '../../assets/wen-modified.png';
-import shibaImage from '../../assets/images/Shiba_Inu_coin_logo.png';
-import ponkeImage from '../../assets/images/ponke.png';
-import pepeImage from '../../assets/images/pepe-pepe-logo.png';
-import bonkImage from '../../assets/images/bonk.png';
-import brettImage from '../../assets/images/brett.png';
-import dogImage from '../../assets/images/Dogecoin_Logo.png';
-import wifImage from '../../assets/images/wif.png';
-import flokingImage from '../../assets/images/floki.png';
 
 import { NavLink } from 'react-router-dom';
 

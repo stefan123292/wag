@@ -1,58 +1,30 @@
 export const planets = [
     {
         id: 0,
-        name: 'Floki',
-        path: '/floki',
-        color: 'hsl(196, 83%, 93%)',
-        sectionColor: 'hsl(194, 48%, 49%)',
+        name: 'About WagCoin',
+        path: '/about',
+        color: 'hsl(210, 90%, 85%)',
+        description: 'Discover what makes WagCoin the most fun and engaging meme token in crypto.'
     },
     {
         id: 1,
-        name: 'Wif',
-        path: '/wif',
-        color: 'hsl(39, 88%, 73%)',
-        sectionColor: 'hsl(33, 82%, 61%)',
+        name: 'Roadmap',
+        path: '/roadmap',
+        color: 'hsl(30, 80%, 75%)',
+        description: 'Explore our plans, from fair launch to global community growth.'
     },
     {
         id: 2,
-        name: 'Shiba',
-        path: '/shiba',
-        color: 'hsl(238, 99%, 66%)',
-        sectionColor: 'hsl(263, 67%, 51%)',
+        name: 'How to Buy',
+        path: '/how-to-buy',
+        color: 'hsl(130, 70%, 75%)',
+        description: 'Learn how to get your hands on WagCoin quickly and easily.'
     },
     {
         id: 3,
-        name: 'Pepe',
-        path: '/pepe',
-        color: 'hsl(12, 100%, 64%)',
-        sectionColor: 'hsl(10, 63%, 51%)',
-    },
-    {
-        id: 4,
-        name: 'Doge',
-        path: '/doge',
-        color: 'hsl(27, 75%, 70%)',
-        sectionColor: 'hsl(2, 68%, 53%)',
-    },
-    {
-        id: 5,
-        name: 'Bonk',
-        path: '/bonk',
-        color: 'hsl(40, 96%, 70%)',
-        sectionColor: 'hsl(17, 73%, 46%)',
-    },
-    {
-        id: 6,
-        name: 'Ponke',
-        path: '/ponke',
-        color: 'hsl(168, 82%, 67%)',
-        sectionColor: 'hsl(169, 73%, 44%)',
-    },
-    {
-        id: 7,
-        name: 'Brett',
-        path: '/brett',
-        color: 'hsl(222, 95%, 63%)',
-        sectionColor: 'hsl(222, 87%, 56%)',
-    },
+        name: 'Community',
+        path: '/community',
+        color: 'hsl(340, 85%, 80%)',
+        description: 'Join the WagCoin community and be part of the fun.'
+    }
 ];

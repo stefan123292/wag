@@ -2,21 +2,21 @@ export const data = [
     {
         title: "Fair Launch",
         description:
-            "No pre-sale, no insider games. GalaxyWen is for everyone, right from the start.",
+            "No pre-sale, no special treatment. WagCoin is for everyone, right from day one.",
     },
     {
         title: "Community Driven",
         description:
-            "The $GWEN community fuels the project with memes, creativity, and limitless energy.",
+            "The WagCoin community is at the heart of everything—bringing fun, memes, and good vibes.",
     },
     {
-        title: "Galactic Ambitions",
+        title: "Playful Vision",
         description:
-            "While others aim for the moon, we’re setting our sights on the galaxy.",
+            "Forget the moon—WagCoin is here to make the crypto journey lighthearted and enjoyable.",
     },
     {
         title: "Meme-Powered",
         description:
-            "Combining meme culture with real potential, GalaxyWen is here to make waves.",
+            "Rooted in meme culture, WagCoin proves that fun and community can drive the crypto space forward.",
     },
 ];
