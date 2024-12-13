@@ -5,12 +5,14 @@
     "main": "public/index.html",
     "scripts": {
         "build": "npx mix",
-        "mix-watch": "npx mix watch"
+        "mix-watch": "npx mix watch",
+        "deploy": "gh-pages -d build"
     },
     "keywords": [],
     "author": "Wen",
     "homepage": "https://wagcoin.xyz/",
     "devDependencies": {
+        "gh-pages": "^6.2.0",
         "laravel-mix": "^6.0.25",
         "prettier": "2.3.2"
     },
