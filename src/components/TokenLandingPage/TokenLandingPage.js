@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import {useEffect, useRef} from "react";
-import wagImg from "../../assets/wag.png"
+import wagImg from "../../assets/images/wag.png"
 import { useHistory } from 'react-router-dom';
 import {
     Content,

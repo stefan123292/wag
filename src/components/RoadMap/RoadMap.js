@@ -1,6 +1,6 @@
 import { roadmapData } from "./data";
 import {RoadmapStyles} from "./RoadMapStyles";
-import wagImg from "../../assets/wag.png"
+import wagImg from "../../assets/images/wag.png"
 import {useEffect, useRef} from "react";
 import { gsap } from "gsap";
 
