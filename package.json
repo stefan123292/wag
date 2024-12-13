@@ -1,29 +1,45 @@
 {
-    "name": "wog-coin",
-    "version": "1.0.0",
-    "description": "",
-    "main": "public/index.html",
-    "scripts": {
-        "build": "npx mix",
-        "mix-watch": "npx mix watch",
-        "deploy": "gh-pages -d build"
-    },
-    "keywords": [],
-    "author": "Wen",
-    "homepage": "https://wagcoin.xyz/",
-    "devDependencies": {
-        "gh-pages": "^6.2.0",
-        "laravel-mix": "^6.0.25",
-        "prettier": "2.3.2"
-    },
-    "dependencies": {
-        "@babel/preset-react": "^7.14.5",
-        "framer-motion": "^4.1.17",
-        "gsap": "^3.12.5",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2",
-        "react-icomoon": "^2.3.5",
-        "react-router-dom": "^5.2.0",
-        "styled-components": "^5.3.0"
-    }
+  "name": "wog-coin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "Wen",
+  "homepage": "https://wagcoin.xyz/",
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "laravel-mix": "^6.0.25",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "framer-motion": "^4.1.17",
+    "gsap": "^3.12.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icomoon": "^2.3.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
